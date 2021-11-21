@@ -1,0 +1,145 @@
+body{
+    background-color:#f4f1de;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+header{
+    border: 10px solid yellow;
+}
+header > h1 {
+    font-size: 45px;
+    
+
+}
+
+ nav{
+    background-color: #14342B;
+    padding: 25px 0px 25px 0px;
+    border: 2px solid rgb(10, 10, 10);
+  
+}
+nav > ul {
+    color: #BBDFC5;
+    Display: block;
+    list-style-type: none;
+    display:flex;
+}
+
+li  a {
+    display: block;
+    color white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+a:visited{
+    color:yellow;
+}
+.intro {
+margin-top:50px;
+margin-bottom: 45px;
+padding-left: 50px;
+}
+
+.list h2 {
+    color: #EB5E55;
+    font-size: 24px;
+}
+
+.list{
+    background-color: #BBDFC5;
+    Padding: 15px 15px 45px 50px;
+    font-size: 22px;
+}
+
+main{
+    border: 5px solid pink;
+}
+
+
+.promo{
+    border: dotted #EB5E55 ;
+    margin-top: 45px;
+
+}
+
+.promo h2 {
+    Margin-left: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#EB5E55;
+}
+
+.promo a{
+margin-left:50px;
+color:#1e8350
+}
+
+.promo p{
+    margin-left: 50px;
+    
+}
+.promo img{
+    border: 10px solid green;
+    margin: 0 auto;
+    width: 60%;
+    display: block;
+   
+}
+
+footer {
+    background-color: #14342B;
+    height: auto;
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+footer > a{
+    color: white;
+    margin-left:50px;
+}
+.page2 a {
+  
+    
+    color:#EB5E55;
+}
+
+
+.page2{
+    Margin-left: 50px;
+}
+
+.page2 img{
+box-shadow: 5px 10px #888;
+}
+
+@media (min-width: 600px) {
+    main{
+        background-color: lightblue;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p{
+        color: darkcyan;
+        font-size: 0.8em;
+        line-height: 40px;
+    }
+ }
+ 
+ 
+
+@media (min-width: 1024px) {
+   main{
+       background-color: pink;
+       width: 80%;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   p{
+       color: darkcyan;
+       font-size: 0.8em;
+       line-height: 40px;
+   }
+}
+

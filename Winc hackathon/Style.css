@@ -1,0 +1,351 @@
+body{
+font-family:"outfit", sans-serif;
+margin:0;
+}
+
+a{
+    font-family: "outfit", sans-serif;
+}
+
+/* Navbar */
+
+nav{
+    padding: 0px 10%;
+    background-color:#4E0001;
+    color:#E5D5CC;
+    position: fixed;
+    width: 80%;
+    height: auto;
+    margin: 0;
+    z-index: 1;
+
+
+}
+
+.nav-container a{
+display:flex;
+float: left;
+width: 25%;
+}
+
+.nav-container h1{
+    font-size: 18px;
+    padding-top: 5px;
+    ;
+
+}
+
+.nav-container img{
+    height: 50px;
+    width:auto;
+   padding:10px 15px 10px 0px;
+  
+}
+
+.nav-links ul{
+    float: right;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    list-style-type: none;
+    padding:0px;
+    padding-top: 5px;
+}
+
+nav a{
+    color: linen;
+    font-weight: 600;
+    text-decoration: none;
+    
+
+}
+
+/* body-helemaal */
+
+main{
+    width:100%;
+}
+
+H2{
+    color: #4E0001 ;
+}
+.section1{
+    display: flex;
+    padding: 10% 10% 5%;
+     background-color: #F9B8AF;
+}
+
+.tekst{
+width: 60%;
+height: auto;
+}
+
+.tekst p{
+    margin-bottom: 50px;
+}
+
+.section1-img-container{
+    display: block;
+}
+
+.section1-img-container img{
+    width: 60%;
+    height: auto;
+    float: right;
+    padding-right: 10%;
+}
+
+.knop{
+    background-color: #4E0001;
+    padding:10px 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #a37771;
+    font-family: "outfit" , sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: linen;
+}
+
+.knop a:hover{
+    background-color: olive;
+
+}
+
+
+/* Sectie Recepten */
+
+.section2{
+    background-color: #D8B194;
+    padding: 5% 10% 5%;
+    box-shadow: -5px -4px 12px #a37771;
+   
+
+}
+
+.container-rec{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    
+    
+}
+
+.image-container {
+    width: 100%;
+
+    
+}
+
+.image-container img{
+    width: 80%;
+    align-items: center;
+}
+
+.image-container a{
+    color:linen;
+    text-decoration: none; 
+}
+
+.section4{
+display:flex;
+background-color: #F9B8AF;
+padding:5% 10% 5%;
+
+}
+.container-recensie{
+    width: 100%;
+    display:flex;
+    
+    
+}
+.image-container-recensie {
+   display: block;
+   align-items: center ;
+}
+
+.image-container-recensie img{
+    width: 60%;
+    display: block;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.image-container-recensie h3 {
+    text-align: center;
+    color: #4E0001;
+}
+
+.image-container-recensie p{
+    text-align: center;
+    color:#4E0001;
+}
+
+/* footer */
+
+footer{
+    padding: 15px 10%;
+    background-color:#4E0001;
+    color:#E5D5CC;
+    height: 150px;
+    margin: 0;
+}
+
+.container-footer{
+    display: flex;
+    padding-top: 4%;
+}
+
+.container-footer img {
+    height: 100px;
+    margin-right:5%;
+
+}
+
+.container-footer h1{
+    margin-right:10%;
+    font-size: 30px;
+}
+
+.container-footer a {
+color: linen;
+text-decoration: none;
+}
+
+
+
+/* Pagina recepten */
+
+.recept-overzicht{
+    padding: 10% 10% 5% 10%;
+    background-color: #EE7F21;
+}
+
+.Grid-container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-row-gap: 100px;
+    grid-column-gap: 40px;
+}
+
+.grid-item img{
+   width:100%;
+   padding-bottom: opx;
+}
+.grid-item h3{
+    color:#4E0001;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.grid-item a{
+    text-decoration: none;
+    color:linen;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+/* Pagina Contact*/
+
+.Maps{
+    padding: 10% 10% 10% 10%;
+    width: 100%;
+    background-color: #F9B8AF;
+}
+
+.hele-sectie{
+    display: flex;
+    width:100%;
+}
+
+.mapouter{
+    border:#4E0001 solid 5px;
+    margin-right: 50px;
+}
+
+.form{
+    display: flex;
+    padding:5% 10% 10% 10%;
+    border-top:#4E0001 solid 5px;
+    background-color:#96B7B5;
+    width: 100%;
+}
+
+.form img{
+    width: 40%;
+    padding-left: 10%;
+    
+   
+}
+
+
+/*media queries*/
+
+@media screen and (max-width: 600px){
+
+    
+    nav a{
+     font-size: 0.6rem;
+     padding-left: 10%;
+    }
+
+    nav a h1 {
+        font-size: 0.6rem;
+    }
+
+    .section1{
+        padding-top: 20%;
+        padding-bottom: 10%;
+        display: block;
+    }
+
+    .section1-img-container img{
+     display: none;
+    }
+    .tekst{
+        width: 100%;
+        height: auto;
+        }
+
+        
+    .section2{
+    background-color: #D8B194;
+    padding: 5% 10% 10%;
+    box-shadow: -5px -4px 12px #a37771;
+   
+
+}
+
+.container-rec{
+    padding-top:5%;
+    display: block;
+    width:92%;
+    justify-content: center;
+    
+    
+}
+
+.image-container {
+    width: 100%;
+    padding-bottom: 50px;
+        }
+
+
+
+.container-recensie {
+    display:block;
+}
+
+.image-container-recensie{
+    padding-top: 50px;
+}
+
+.container-footer h1{
+    font-size: 0.9rem;
+
+}
+}
+
